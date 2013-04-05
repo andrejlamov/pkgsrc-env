@@ -1,0 +1,6 @@
+[core]
+	editor = emacs
+[color]
+	ui = true
+[push]
+	default = simple
