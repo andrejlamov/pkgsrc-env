@@ -1,8 +1,8 @@
 ** How to run
 *** init
     ./boot.sh 
-*** build & install  
-    make
+*** build & install program in Makefile  
+    make <your program>
 *** setup (optional)
     source setup.sh
 ** Known errors
