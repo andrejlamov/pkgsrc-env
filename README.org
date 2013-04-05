@@ -1,0 +1,4 @@
+** Known errors
+*** Linux
+**** Error: /usr/include/libutil.h:33:2: error: #warning "Deprecated header, use <bsd/libutil.h> or libbsd-overlay.pc instead."
+     Quick fix: remove libbsd-dev 
