@@ -1,6 +1,8 @@
 #Make the binaries in target visible
 
 #Source this file from any position and get correct target-path
-TARGET_BIN=$(dirname $(readlink -f $0))/target/pkg/bin
+TARGET=$(dirname $(readlink -f $0))/target
+TARGET_BIN=$TARGET/pkg/bin
+TARGET_SBIN=$TARGET/pkg/sbin
 
-export PATH=$TARGET_BIN:$PATH
+export PATH=$TARGET_BIN:$TARGET_SBIN:$PATH
