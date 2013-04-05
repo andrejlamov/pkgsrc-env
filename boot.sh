@@ -12,4 +12,3 @@ rm pkgsrc.tar.gz
 
 target/pkg/sbin/pkg_admin -K target/db/pkg fetch-pkg-vulnerabilities
 
-source setup.sh
