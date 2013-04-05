@@ -1,7 +1,9 @@
+#!/bin/bash
+
 #Make the binaries in target visible
 
 #Source this file from any position and get correct target-path
-TARGET=$(dirname $(readlink -f $0))/target
+TARGET=$(dirname $(pwd)/${BASH_SOURCE[0]})/target
 TARGET_BIN=$TARGET/pkg/bin
 TARGET_SBIN=$TARGET/pkg/sbin
 
